@@ -2,7 +2,7 @@ import time
 
 inicio = time.time()
 
-lista = [[1,2],[2,3],[3,4],[4,1]]
+lista = {'1':['4','5'],'2':['1','4','6'],'3':['7'],'4':['1','2','5'],'5':['1','4'],'6':['2'],'7':['3']}
 explorados = []
 
 fila = []
@@ -10,19 +10,20 @@ fila = []
 for i in lista:
     if i not in explorados:
         fila.append(i)
+        print('Fila: ', fila)
         explorados.append(i)
         while not fila==[]:
             u = fila.pop()
-            for v in lista:
+            print('Fila: ', fila)
+            for v in lista[u]:
                 if v not in explorados:
-                    # lista.remove([v,u])
                     explorados.append(v)
                     fila.append(v)
-        
+                    print('Fila:', fila)       
 
 fim = time.time()
 
-print(explorados)
+print('Explorados: ', explorados)
 
 print(fim - inicio)
     

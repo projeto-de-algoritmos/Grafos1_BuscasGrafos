@@ -9,17 +9,17 @@ Este repositório destinado ao primeiro projeto relacionado a grafos da discipli
 
 Os arquivos `bfs.py` e `dfs.py`, realizam as buscas em largura e profundidade nos grafos por meio de dicionários.
 
-## Casos de Teste
+## Tempo de Execução
 
-|Casos|BFS|DFS|
-|-----|---|---|
+|Casos de Testes|BFS|DFS|
+|---------------|---|---|
 |1º|0.000317|0.000154|
 |2º|0.000343|0.000055|
 |3º|0.000133|0.000063|
 
 ---
 
-## Equipe 
+## Contribuidores
 
 |Matrícula|Nome|GitHub|
 |---------|----|------|

@@ -41,4 +41,4 @@ print('explorados: ', explorados)
 
 print('arvore: ', arvore)
 
-print('tempo de execução:'fim - inicio)
+print('tempo de execução: ', fim - inicio)

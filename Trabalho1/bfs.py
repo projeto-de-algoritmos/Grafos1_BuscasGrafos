@@ -45,5 +45,5 @@ fim = time.time()
 
 print('Explorados: ', explorados)
 
-print('tempo de execução:'fim - inicio)
+print('tempo de execução: ', fim - inicio)
     

@@ -11,6 +11,11 @@ inicio = time.time()
 
 # grafo
 lista = {'1':['4','5'],'2':['1','4','6'],'3':['7'],'4':['1','2','5'],'5':['1','4'],'6':['2'],'7':['3']}
+
+# no = input('Adicione um no: ')
+# edge = input('Descreva um no que ser a ligado ao no criado: ')
+# lista[no] = [edge]
+
 explorados = []
 fila = []
 

@@ -33,7 +33,7 @@ Os arquivos `bfs.py` e `dfs.py`, realizam as buscas em largura e profundidade no
 
 ![graphdfs](https://i.imgur.com/kXMyxjS.png)
 
-## Execuntado as Buscas
+## Executando as Buscas
 
 ### Debian
 
@@ -47,10 +47,11 @@ Acesse o diretório:
 
 `$ cd grafo_1_Francisco_Joao/Trabalho1`
 
-Execute:
-
 Busca em Largura:
 `$ python3 bfs.py` 
 
 Busca em Profundidade:
 `$ python3 dfs.py`
+
+Plotagem de um gráfico exemplo como imagem:
+`$ python3 plotGraph.py`
